@@ -99,4 +99,10 @@ for line in words_database:
 
 words_list.sort(key = len)
 words_list.reverse()
+for i in range(20):
+    for word in words_list:
+        if letter_7 in word:
+            continue
+        else:
+            words_list.remove(word)
 print(words_list)

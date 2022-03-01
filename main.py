@@ -1,3 +1,7 @@
+# Import the instructions module and prompt the user for instructions
+import welcome as welcome
+welcome.get_instructions()
+
 # Get letter inputs
 ring_letter_1 = str(input("Please enter the first ring letter: "))
 ring_letter_2 = str(input("Please enter the second ring letter: "))
